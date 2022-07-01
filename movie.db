@@ -1,0 +1,9 @@
+movies.db;
+CREATE TABLE Movie(MovieName text,Actor text,Actoress text,Director text,YearOfRelease integer NOT NULL);
+INSERT INTO Movie(MovieName,Actor,Actoress ,Director ,YearOfRelease) VALUES('Parasakthi','Sivaji Ganesan','Pandari Bai','S S Rajendran',1952,);
+INSERT INTO Movie(MovieName,Actor,Actoress ,Director ,YearOfRelease) VALUES('16 Vayathinile','Kamal Haasan','Sridevi','Bharathi raja',1977,);
+INSERT INTO Movie(MovieName,Actor,Actoress ,DIrector ,YearOfRelease) VALUES('Vikram','Kamal Hassan','Gayathrie Shankar','Lokesh Kanagaraj',2022,);
+INSERT INTO Movie(MovieName,Actor,Actoress ,Director ,YearOfRelease) VALUES('Pirates of the caribbean: Salazar's Revenge','Johnny Depp','Kaya Scodelario','Joachim Ronning',2017,);
+
+SELECT * FROM movies;
+SELECT Movie FROM movies WHERE actor='Johnny Depp';
